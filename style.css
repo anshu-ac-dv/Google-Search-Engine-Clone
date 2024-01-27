@@ -1,0 +1,25 @@
+.header ul{
+    display: flex;
+    justify-content: end;
+}
+.header ul li{
+    margin: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+body{
+    margin: 5px;
+    padding: 10px;
+}
+.main h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.main input{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+}
