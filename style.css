@@ -10,16 +10,30 @@
 body{
     margin: 5px;
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 .main h1{
     text-align: center;
     font-size: 80px;
     margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.main input{
-    width: 350px;
+.main input[type=text]{
+    margin-top: 0;
+    width: 500px;
     border: 1px solid black;
     border-radius: 30px;
-    padding: 10px;
-    align-items: center;
+    padding: 10px 15px;
+    justify-content: center;
+}
+table{
+    justify-content: center;
+}
+table thead tr td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
 }
